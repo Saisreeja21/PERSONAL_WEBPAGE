@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: #11192C; /* Dark blueish-black background color */
+    font-family: 'Fira sans', sans-serif;
+    height: 100vh;
+    width: 300px;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: #FFFFFF; /* White color for the links */
+}
+
+.main {
+    background-color: #FFFFFF; /* White background color for the main content */
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    background-color: #11192C; /* Dark blueish-black background color */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    animation: slideIn 0.5s ease-in-out;
+}
+
+.Hello {
+    font-size: 65px;
+    font-family: 'Courier New', Courier, monospace;
+    animation: fadeIn 1s ease-in-out;
+    color: black; /* White color for the text */
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black; /* White color for the text */
+}
+
+.about {
+    font-size: 30px; /* Adjusted font size */
+    color: black; /* White color for the text */
+}
+.introduction {
+    margin: 20px; /* Add margin for spacing */
+}
+
+.introduction h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px; /* Increase font size for better visibility */
+    margin-bottom: 10px; /* Add spacing below the heading */
+}
+
+.introduction ul {
+    font-size: 18px; /* Adjust font size for the list items */
+    margin-bottom: 20px; /* Add spacing below the list */
+}
+
+.introduction ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: #FFFFFF; /* White color for the text */
+    background-color: #1F4788; /* Dark blue color for the buttons */
+    font-weight: bold;
+    font-size: 18px; /* Adjusted font size */
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sn {
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #FFFFFF; /* White background color for the buttons */
+    color: #1F4788; /* Dark blue color for the buttons */
+}
+
+.moreabout {
+    font-size: 20px; /* Adjusted font size */
+    font-family: sans-serif;
+    margin-top: 23px;
+    color: black; /* White color for the text */
+}
+
+.sidebar p {
+    font-family: Arial, sans-serif;
+    font-size: 14px; /* Adjusted font size */
+    margin: 12px 0; /* Add space between lines by adjusting the top and bottom margins */
+    line-height: 1.5; /* Increase the line height for better readability */
+    color: #FFFFFF; /* White color for the text */
+}
+
+.ham {
+    margin-top: 10px;
+}
+
+.cross {
+    height: 3vh;
+    margin-left: 234px;
+    margin-top: 10px;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: right;
+    left: 10px;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.infocontainer {
+    background-color: #FFFFFF;
+}
+
+.intro,
+.blog-container,
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: sans-serif;
+}
+
+.contactform h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+.blog-item {
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.blog-container h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    margin-top: auto;
+}
+
+.blog-container h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.blog-item p {
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.skills{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
